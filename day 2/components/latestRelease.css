@@ -1,0 +1,80 @@
+.row-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column1 {
+    flex: 15%;
+    padding: 0 7px;
+  }
+  .column2 {
+    flex: 15%;
+    padding: 0 7px;
+  }
+  .column{
+    flex: 40%;
+    padding: 0 4px;
+  }
+ .img-thumbnail{
+    padding: 1.25rem !important;
+    border: none !important;
+ }
+ .img-thumbnail:hover{
+    border: 1px solid black !important;
+    border-radius: 0px !important;
+    opacity: 0.8;
+ }
+ .title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .breadcrumb{
+    background-color: white !important;
+    justify-content: center;
+ }
+ .breadcrumb a{
+    color: black;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .jumbotron{
+     background-image: url(https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) ;
+     background-position: center;
+     background-size: cover;
+     padding: 10rem 3rem !important;
+     opacity: 0.8;
+ }
+
+ .bg-dark{
+     background-color:transparent !important;
+ }
+ .navbar a{
+     color: rgb(15, 7, 26) !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px 6px!important;
+ }
+ .navbar a:hover{
+    border-bottom: 1px solid black;
+    padding: 0px 6px!important;
+    transition: ease 1s;
+ }
+ .book-card{
+   padding: 10px 10px !important;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 14px;
+   border: none !important;
+
+ }
+ .cards-title{
+    padding-top: 15px;
+    font-size: 16px !important;
+    font-weight: 600;
+
+ }
+ .book-card img:hover{
+   border: 1px solid black !important;
+   border-radius: 0px !important;
+   opacity: 0.8;
+ }
+ .cards-title:hover{
+    text-decoration: underline;
+ }
