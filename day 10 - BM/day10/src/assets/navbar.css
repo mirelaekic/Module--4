@@ -1,0 +1,24 @@
+.nav {
+    background-color: black;
+    z-index: 3;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+  }
+  .nav-item,
+  .nav-item a {
+      font-weight: 600;
+      color: rgb(158, 158, 158);
+      font-size: 18px;
+      padding-left: 10px;
+      margin-bottom: 20px;
+  }
+  .title {
+      box-sizing: border-box;
+      width: 135px;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      margin-left: 8px;
+      margin-right: 30px;
+  }
