@@ -1,0 +1,26 @@
+.navBar {
+  background-color: #000000 !important;
+  box-shadow: 0 4px 4px -3px #3a3a3aa8;
+}
+
+.navLink {
+  color: #f5f5f1 !important;
+}
+
+.buttonSearch {
+  background-color: transparent !important;
+}
+.button-modal{
+  background-color: transparent!important;
+  position:absolute;
+  top:30px;
+  left:40px;
+  font-weight: bold;
+  border: 2px solid  rgba(128, 128, 128, 0.438)!important;
+  border-radius: 50%;
+}
+.button-modal:focus,
+.button-modal:active{
+  border: 1px solid transparent!important;
+  box-shadow: transparent!important;
+}
